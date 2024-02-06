@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+a:hover {
+    color: rgba(214, 46, 51 , 0.4);
+
+}
+.active {
+    color: rgba(214, 46, 51 , 0.4);
+}
+li {
+    margin-bottom: 30px ;
+    font-size:20px ;
+}
+aside {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    padding: 0;
+    z-index: 9999;
+    transition: all .5s;
+    overflow: hidden;
+
+  
+}
+.open {
+    top: 50%;
+    left: 1%;
+    cursor: pointer;
+    z-index: 9999;
+    transition: all .5s;
+}
+.closebtn {
+    margin-left: 200px;
+}
+#hero {
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.over-lay h1 {
+    font-size: 60px;
+}
+.over-lay {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: -60px;
+color: white;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(214, 46, 51 , 0.6);
+}
+#singers div {
+background-color: rgba(214, 46, 51 , 0.8);
+cursor: pointer;
+color: #fff;
+}
+#singers p {
+    background-color: #ccc;
+    display: none;
+}
+#singers #para-1 {
+    display: block;
+}
+
+#deadline {
+    background-image: url('../images/invitation-2508607__340.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 330px;
+}
+.over-lay-date {
+    background-color:rgba(214, 46, 51 , 0.6) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deadline .row {
+    justify-content: space-between;
+    align-items: center;
+}
+#deadline .col-md-3 {
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 23%;
+}
+
+.social li a {
+    border: 1px solid #777;
+    color: #777;
+    padding: 10px;
+    transition: all .5s;
+
+}
+
+.social li a:hover {
+  
+    background-color: rgb(214, 46, 51 );
+color: #fff;
+}
+.head h2 {
+    color: #444;
+    font-size: 35px;
+    
+}
+.heading h2 {
+    color: #444;
+    font-size: 25px;
+}
+.heading p , .body ul li  {
+    line-height: 25px;
+    color: #777;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+textarea {
+    max-height: 200px;
+}
